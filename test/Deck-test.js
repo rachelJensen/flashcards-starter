@@ -1,5 +1,4 @@
 const expect = require('chai').expect;
-const data = require('../src/data.js');
 const Deck = require('../src/Deck.js');
 const Card = require('../src/Card.js');
 
