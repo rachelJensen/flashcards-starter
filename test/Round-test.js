@@ -1,4 +1,3 @@
-/*the Round class will take responses and records these guesses as well as if they are correct or incorrect. The currentCard should be be the first Card in the Deck at the start of the Round*/
 const expect = require('chai').expect;
 const Card = require('../src/Card.js');
 const Turn = require('../src/Turn.js');
@@ -10,7 +9,7 @@ describe('Round', function() {
   let card1, card2, card3;
   let deck;
   let round;
-  //
+
   beforeEach(function() {
     card1 = new Card(1, 'Who is Rachel\'s favorite learning buddy?', ['Lady', 'Flooficorn', 'Dino Floof'], 'Lady');
     card2 = new Card(2, 'What is Rachel\'s favorite drink?', ['Topo', 'Coffee', 'Water'], 'Coffee');
