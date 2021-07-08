@@ -21,7 +21,6 @@ const prototypeQuestions = [{
   }];
 
 describe('The Game', function() {
-
   it('should be a function', function() {
 
     expect(Game).to.be.a('function');
