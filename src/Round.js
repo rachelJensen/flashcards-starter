@@ -34,6 +34,7 @@ class Round {
   endRound() {
     let percent = this.calculatePercentageCorrect().toFixed(0);
     console.log(`**Round over!** You answered ${percent}% of the questions correctly!`);
+
   }
 }
 
