@@ -1,17 +1,17 @@
 # FlashCards
 
 ## Table of Contents
-## Table of Contents
   - [Description](#Description)
   - [Technologies](#Technologies)
   - [Demo](#Demo)
   - [To Play](#To-Play)
   - [Resources](#Resources)
   - [Project Specs](#Project-Specs)
+  - [Contributors](#Contributors)
 
 ## Description
 
-Flashcards is a simple Command Line Interface game that quizzes the used on their knowledge of JavaScript array prototype methods and object oriented programming, and gives them a report on their percentage of correct answers.
+Flashcards is a simple Command Line Interface game that quizzes the user on their knowledge of JavaScript array prototype methods and object oriented programming, and gives them a report on their percentage of correct answers.
 
 ## Technologies
   - Javascript
@@ -29,3 +29,7 @@ Flashcards is a simple Command Line Interface game that quizzes the used on thei
 
 ## Project Specs
   - The project spec & rubric can be found [here](https://frontend.turing.edu/projects/flash-cards.html)
+
+## Contributors
+- Rachel Jensen
+- Turing School of Software Design (see Project Specs)
