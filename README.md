@@ -11,13 +11,13 @@
 
 ## Description
 
-Flashcards is a simple Command Line Interface game that quizes the user on
+Flashcards is a simple Command Line Interface game that quizzes the used on their knowledge of JavaScript array prototype methods and gives them a report on their percentage of correct answers.
 
 ## Technologies
   - Javascript
 
 ## Demo
-[Watch Video](https://user-images.githubusercontent.com/81662051/125014310-b2ec2200-e02a-11eb-8b18-6575c176c44c.mov))
+![Watch Video](https://user-images.githubusercontent.com/81662051/125014310-b2ec2200-e02a-11eb-8b18-6575c176c44c.mov)
 
 ## To Play
 1. Fork this repo  
