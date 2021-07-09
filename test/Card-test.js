@@ -7,7 +7,11 @@ describe('Card', function() {
   let card;
 
   beforeEach(function() {
-    card = new Card(1, 'What allows you to define a set of related information using key-value pairs?', ['object', 'array', 'function'], 'object');
+    card = new Card(1,
+      'What allows you to define a set of related information using key-value pairs?',
+      ['object', 'array', 'function'],
+      'object'
+    );
   });
 
   it('should be a function', function() {
@@ -19,7 +23,8 @@ describe('Card', function() {
   });
 
   it('should store a question', function() {
-    expect(card.question).to.equal('What allows you to define a set of related information using key-value pairs?');
+    expect(card.question).to.equal(
+      'What allows you to define a set of related information using key-value pairs?');
   });
 
   it('should store a list of possible answers', function() {
