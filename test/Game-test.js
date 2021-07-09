@@ -3,28 +3,12 @@ const Card = require('../src/Card.js');
 const Deck = require('../src/Deck.js');
 const Round = require('../src/Round.js');
 const Game = require('../src/Game.js');
-const prototypeQuestions = [{
-    "id": 1,
-    "question": 'Who is Rachel\'s favorite learning buddy?',
-    "answers": ['Lady', 'Flooficorn', 'Dino Floof'],
-    "correctAnswer": 'Lady'
-  }, {
-    "id": 2,
-    "question": 'What is Rachel\'s favorite drink?',
-    "answers": ['Topo', 'Coffee', 'Water'],
-    "correctAnswer": 'Coffee'
-  }, {
-    "id": 3,
-    "question": 'What is Rachel\'s favorite tarot card?',
-    "answers": ['Death', 'Two of Pentacles', 'The Chariot'],
-    "correctAnswer": 'The Chariot'
-  }];
 
 describe('The Game', function() {
   let game;
 
   beforeEach(function() {
-    game = new Game;
+    game = new Game();
     game.start();
   });
 
